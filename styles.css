@@ -6,6 +6,33 @@ body {
     margin: 0;
 }
 
+.random-info {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.random-info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.blue-square {
+    aspect-ratio: 1;
+    width: 100%;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+
+.random-info-subtext {
+    font-size: 14px;
+    color: #666;
+}
+
 .quote {
     background-color: #e5e7eb;
     text-align: left;
