@@ -6,6 +6,38 @@ body {
     margin: 0;
 }
 
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+}
+
+.hero-logo {
+    font-size: 24px;
+    /* font-weight: bold; */
+}
+
+.hero-inner-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-top-links {
+    display: flex;
+    gap: 16px;
+}
+
 .random-info {
     text-align: center;
     padding-top: 20px;
